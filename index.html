@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artem Buniakov | Champagne & Wine Experiences</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+    }
+    /* Header Styles */
+    header {
+      background: url('https://source.unsplash.com/1600x900/?wine') no-repeat center center/cover;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    header h1 {
+      font-size: 3rem;
+      z-index: 1;
+    }
+    header p {
+      font-size: 1.5rem;
+      z-index: 1;
+    }
+    /* Navigation Styles */
+    nav {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #b89f6b;
+    }
+    /* Section Styles */
+    section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .about img {
+      width: 300px;
+      border-radius: 50%;
+      margin: 1rem;
+    }
+    .about-text {
+      flex: 1;
+      margin: 1rem;
+    }
+    .about-text h2 {
+      font-size: 2.5rem;
+      color: #b89f6b;
+    }
+    /* Services Section */
+    .services {
+      background: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .service {
+      flex: 1;
+      background: #f9f9f9;
+      margin: 1rem;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .service:hover {
+      transform: translateY(-10px);
+    }
+    .service h3 {
+      color: #b89f6b;
+      margin-bottom: 1rem;
+    }
+    /* Contact Section */
+    .contact {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding: 2rem 0;
+    }
+    .contact a {
+      color: #b89f6b;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #222;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the World of Fine Wines</h1>
+    <p>Curated Champagne & Wine Experiences by Artem Buniakov</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <img src="https://gerardbassetfoundation.org/wp-content/uploads/2023/08/Artem-Buniakov.jpg" alt="Artem Buniakov">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>With over 6 years of experience in the wine industry across France, the Netherlands, and Ukraine, I specialize in offering bespoke wine experiences. From guiding tours in Champagne and Burgundy to crafting wines at esteemed estates, I bring the rich heritage of French viticulture to enthusiasts worldwide.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="service">
+      <h3>Private Champagne Tastings</h3>
+      <p>Indulge in exclusive tastings of rare and premium champagnes in the heart of Paris. Perfect for couples, groups, or corporate events.</p>
+    </div>
+    <div class="service">
+      <h3>French Wine Masterclasses</h3>
+      <p>Explore the diversity of French wines with themed masterclasses covering regions like Bordeaux, Loire, and Burgundy.</p>
+    </div>
+    <div class="service">
+      <h3>Guided Wine Day Trips</h3>
+      <p>Embark on custom tours to Champagne or Loire Valley from Paris, including vineyard visits, cellar tours, and gourmet pairings.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Phone: +33 6 29 99 37 12</p>
+    <p>Email: <a href="mailto:bunyakovartem12@gmail.com">bunyakovartem12@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/artem-buniakov">linkedin.com/in/artem-buniakov</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Artem Buniakov | All Rights Reserved
+  </footer>
+</body>
+</html>
